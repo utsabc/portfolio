@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "When Emotions Spill Over at Work",
+    "slug": "when-emotions-spill-over-at-work",
+    "date": "2024-09-25",
+    "excerpt": "Understanding how to manage emotional responses in professional environments and maintain productivity.",
+    "content": "Full blog post content would go here...",
+    "tags": ["career", "emotional-intelligence", "workplace"]
+  },
+  {
+    "id": 2,
+    "title": "Why gRPC Uses HTTP2",
+    "slug": "why-grpc-uses-http2",
+    "date": "2024-09-24",
+    "excerpt": "Exploring the technical reasons behind gRPC's choice of HTTP/2 as its transport protocol.",
+    "content": "Full blog post content would go here...",
+    "tags": ["grpc", "http2", "microservices", "performance"]
+  },
+  {
+    "id": 3,
+    "title": "Meetings With No Agenda Are a Waste of Time",
+    "slug": "meetings-with-no-agenda-are-waste-of-time",
+    "date": "2024-09-22",
+    "excerpt": "Why structured meetings with clear agendas lead to better outcomes and team productivity.",
+    "content": "Full blog post content would go here...",
+    "tags": ["productivity", "meetings", "leadership"]
+  },
+  {
+    "id": 4,
+    "title": "Growth Isn't About Doing Everything",
+    "slug": "growth-isnt-about-doing-everything",
+    "date": "2024-09-18",
+    "excerpt": "The importance of focused growth and strategic skill development over trying to learn everything.",
+    "content": "Full blog post content would go here...",
+    "tags": ["growth", "career", "focus", "strategy"]
+  },
+  {
+    "id": 5,
+    "title": "Career Longevity Beats Constant Job Hopping",
+    "slug": "career-longevity-beats-constant-job-hopping",
+    "date": "2024-09-13",
+    "excerpt": "Why staying longer in roles can lead to deeper expertise and better career outcomes.",
+    "content": "Full blog post content would go here...",
+    "tags": ["career", "longevity", "expertise", "job-hopping"]
+  }
+]

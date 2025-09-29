@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "C/C++ Thread Safety Analysis",
+    "authors": "Various Authors",
+    "url": "https://example.com/paper1",
+    "year": "2024",
+    "category": "Programming Languages",
+    "tags": ["thread-safety", "c++", "static-analysis"]
+  },
+  {
+    "id": 2,
+    "title": "Mesa: Geo-Replicated, Near Real-Time, Scalable Data Warehousing",
+    "authors": "Google Research Team",
+    "url": "https://example.com/paper2",
+    "year": "2024",
+    "category": "Distributed Systems",
+    "tags": ["data-warehousing", "geo-replication", "real-time"]
+  },
+  {
+    "id": 3,
+    "title": "MyRocks: LSM-Tree Database Storage Engine Serving Facebook's Social Graph",
+    "authors": "Facebook Engineering",
+    "url": "https://example.com/paper3",
+    "year": "2024",
+    "category": "Database Systems",
+    "tags": ["lsm-tree", "storage-engine", "social-graph"]
+  },
+  {
+    "id": 4,
+    "title": "Storing and Querying Tree-Structured Records in Dremel",
+    "authors": "Google Research Team",
+    "url": "https://example.com/paper4",
+    "year": "2024",
+    "category": "Query Processing",
+    "tags": ["dremel", "tree-structures", "columnar-storage"]
+  },
+  {
+    "id": 5,
+    "title": "In praise of empathic AI",
+    "authors": "Various Researchers",
+    "url": "https://example.com/paper5",
+    "year": "2024",
+    "category": "Artificial Intelligence",
+    "tags": ["empathy", "ai", "human-computer-interaction"]
+  }
+]
