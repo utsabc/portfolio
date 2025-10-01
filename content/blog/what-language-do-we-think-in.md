@@ -74,10 +74,10 @@ And here’s the scarier thought: is something like this happening to us right n
 
 Maybe Orwell wasn’t just writing fiction.  
 
-<div class="image-container">
+<!-- <div class="image-container">
   <img src="/images/blog/language_of_thought.jpg" alt="Sample image with caption" loading="lazy">
   <div class="image-caption">Reality?</div>
-</div>
+</div> -->
 
 ---
 
