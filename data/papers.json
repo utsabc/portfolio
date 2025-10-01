@@ -1,47 +1,29 @@
 [
   {
     "id": 1,
-    "title": "C/C++ Thread Safety Analysis",
+    "title": "Attention Is All You Need",
     "authors": "Various Authors",
-    "url": "https://example.com/paper1",
+    "url": "https://arxiv.org/abs/1706.03762",
     "year": "2024",
-    "category": "Programming Languages",
-    "tags": ["thread-safety", "c++", "static-analysis"]
+    "category": "Artificial Intelligence",
+    "tags": ["transformer", "attention", "machine-learning"]
   },
   {
     "id": 2,
-    "title": "Mesa: Geo-Replicated, Near Real-Time, Scalable Data Warehousing",
-    "authors": "Google Research Team",
-    "url": "https://example.com/paper2",
+    "title": "Amazon Firecracker: Lightweight Virtualization for Serverless Applications",
+    "authors": "Amazon Research Team",
+    "url": "https://www.amazon.science/publications/firecracker-lightweight-virtualization-for-serverless-applications",
     "year": "2024",
-    "category": "Distributed Systems",
-    "tags": ["data-warehousing", "geo-replication", "real-time"]
+    "category": "Cloud Computing",
+    "tags": ["microservices", "cloud-computing", "serverless"]
   },
   {
     "id": 3,
     "title": "MyRocks: LSM-Tree Database Storage Engine Serving Facebook's Social Graph",
     "authors": "Facebook Engineering",
-    "url": "https://example.com/paper3",
+    "url": "https://research.facebook.com/publications/myrocks-lsm-tree-database-storage-engine-serving-facebooks-social-graph/",
     "year": "2024",
     "category": "Database Systems",
     "tags": ["lsm-tree", "storage-engine", "social-graph"]
-  },
-  {
-    "id": 4,
-    "title": "Storing and Querying Tree-Structured Records in Dremel",
-    "authors": "Google Research Team",
-    "url": "https://example.com/paper4",
-    "year": "2024",
-    "category": "Query Processing",
-    "tags": ["dremel", "tree-structures", "columnar-storage"]
-  },
-  {
-    "id": 5,
-    "title": "In praise of empathic AI",
-    "authors": "Various Researchers",
-    "url": "https://example.com/paper5",
-    "year": "2024",
-    "category": "Artificial Intelligence",
-    "tags": ["empathy", "ai", "human-computer-interaction"]
   }
 ]

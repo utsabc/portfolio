@@ -4,6 +4,25 @@ import matter from 'gray-matter'
 
 export default defineEventHandler(async (event) => {
   const type = getRouterParam(event, 'type')
+  
+  // Special handling for papers - use JSON file instead of markdown
+  if (type === 'papers') {
+    const papersJsonPath = path.join(process.cwd(), 'data', 'papers.json')
+    
+    if (!fs.existsSync(papersJsonPath)) {
+      return []
+    }
+
+    try {
+      const papersData = JSON.parse(fs.readFileSync(papersJsonPath, 'utf8'))
+      return papersData
+    } catch (error) {
+      console.error('Error loading papers JSON:', error)
+      return []
+    }
+  }
+  
+  // Default behavior for other content types (blogs, books, etc.)
   const contentDirectory = path.join(process.cwd(), 'content', type)
   
   if (!fs.existsSync(contentDirectory)) {

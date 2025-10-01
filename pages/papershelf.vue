@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-// Load papers from markdown files
+// Load papers from JSON data
 const papers = await $fetch('/api/content/papers')
 
 // SEO

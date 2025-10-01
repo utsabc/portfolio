@@ -213,12 +213,6 @@
             </div>
             <div class="skill-item">
               <div class="skill-icon">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" height="30" alt="spark logo" />
-              </div>
-              <span class="skill-name">Spark</span>
-            </div>
-            <div class="skill-item">
-              <div class="skill-icon">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" height="30" alt="terraform logo" />
               </div>
               <span class="skill-name">Terraform</span>

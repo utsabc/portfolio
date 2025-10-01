@@ -15,9 +15,6 @@
       <div class="blog-content" v-html="renderedContent"></div>
       
       <div class="blog-footer">
-        <div class="author-info">
-          <p><strong>Author:</strong> {{ post.author || 'Your Name' }}</p>
-        </div>
         <div class="share-section">
           <p>Share this post:</p>
           <div class="share-links">
@@ -55,7 +52,22 @@ try {
   // Configure marked options
   marked.setOptions({
     breaks: true,
-    gfm: true
+    gfm: true,
+    renderer: new marked.Renderer()
+  })
+
+  // Custom renderer for images to add responsive classes
+  const renderer = new marked.Renderer()
+  renderer.image = function(href, title, text) {
+    const titleAttr = title ? ` title="${title}"` : ''
+    const altAttr = text ? ` alt="${text}"` : ''
+    return `<img src="${href}"${altAttr}${titleAttr} loading="lazy">`
+  }
+  
+  marked.setOptions({
+    breaks: true,
+    gfm: true,
+    renderer: renderer
   })
 
   // Convert markdown to HTML using marked
@@ -237,6 +249,49 @@ useHead({
   border: none;
   border-top: 1px solid #eee;
   margin: 2rem 0;
+}
+
+.blog-content :deep(img) {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-content :deep(figure) {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.blog-content :deep(figcaption) {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.blog-content :deep(.image-container) {
+  position: relative;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.blog-content :deep(.image-container img) {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content :deep(.image-caption) {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 .blog-footer {
