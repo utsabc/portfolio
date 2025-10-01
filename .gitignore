@@ -6,6 +6,9 @@
 .temp
 .tmp
 
+# Netlify build artifacts
+.netlify/
+
 # Node.js
 node_modules/
 npm-debug.log*
